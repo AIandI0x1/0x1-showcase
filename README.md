@@ -92,8 +92,6 @@ The source code is private. Access is available on request for:
 - Commercial partners and clients
 - Collaborators
 
-Contact: andre.hamm1@gmx.de
-
 ## License
 
 Proprietary. All rights reserved.
