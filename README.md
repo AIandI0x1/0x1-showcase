@@ -9,7 +9,7 @@
 - **Agent harness** — hermes-agent (local and cloud agent execution)
 - **Communication platform** — buzz (hive-mind communication)
 
-## Screenshots
+## Screenshots (outdated)
 
 ### Dashboard — live graph visualization
 
