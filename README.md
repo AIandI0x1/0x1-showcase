@@ -9,6 +9,30 @@
 - **Agent harness** — hermes-agent (local and cloud agent execution)
 - **Communication platform** — buzz (hive-mind communication)
 
+## Screenshots
+
+### Dashboard — live graph visualization
+
+![Dashboard](screenshots/dashboard-graph.jpeg)
+
+The operator surface shows a live visualization of the system's internal graph:
+2,372 nodes and 2,371 edges representing goals, tasks, insights, and plan nodes
+across multiple layers. The left panel shows the task board workflow
+(overview → active → doing → review → completed). The system renders
+real-time projections of the canonical state.
+
+> **Note:** This snapshot is outdated. The system is scaling faster than the
+> frontend can keep up — the local AI execution layer is being bootstrapped
+> and the graph has grown significantly since this was taken. Current state
+> is larger and more complex than shown.
+
+### Canon Graph — interactive demo
+
+<video src="screenshots/canon-graph-demo.mp4" width="800" controls></video>
+
+Interactive walkthrough of the canon graph visualization, showing how the
+system projects goals, tasks, and evidence into a navigable graph structure.
+
 ## What it is
 
 0x1 is a system for orchestrating AI agents across cloud and local infrastructure —
@@ -33,23 +57,6 @@ intervention at every step.
 | Development goals managed | 201 |
 | Tasks tracked | 3,383 |
 | Audit problems | 0 |
-
-## Screenshots
-
-### Dashboard — live graph visualization
-
-![Dashboard](screenshots/dashboard-graph.jpeg)
-
-The operator surface shows a live visualization of the system's internal graph:
-2,372 nodes and 2,371 edges representing goals, tasks, insights, and plan nodes
-across multiple layers. The left panel shows the task board workflow
-(overview → active → doing → review → completed). The system renders
-real-time projections of the canonical state.
-
-> **Note:** This snapshot is outdated. The system is scaling faster than the
-> frontend can keep up — the local AI execution layer is being bootstrapped
-> and the graph has grown significantly since this was taken. Current state
-> is larger and more complex than shown.
 
 ## What it does
 
