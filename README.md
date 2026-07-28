@@ -2,6 +2,13 @@
 
 > **AI-governed work orchestration platform.** Private source, public showcase.
 
+## Modules
+
+0x1 includes absorbed components from other projects:
+
+- **Agent harness** — hermes-agent (local and cloud agent execution)
+- **Communication platform** — buzz (hive-mind communication)
+
 ## What it is
 
 0x1 is a system for orchestrating AI agents across cloud and local infrastructure —
