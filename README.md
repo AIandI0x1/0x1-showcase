@@ -49,7 +49,7 @@ currently being bootstrapped, with the goal of 100% local responsibility.
 ## Technologies
 
 - **Language:** Python (6,400+ modules)
-- **Inference:** Local LLM inference via custom gateway, ROCm
+- **Inference:** Local LLM inference via custom gateway
 - **Audit:** Custom hash-chain implementation (append-only, self-healing)
 - **Network:** Multi-node sync over private mesh
 - **Hardware:** AMD Strix Halo (128 GB unified memory)
