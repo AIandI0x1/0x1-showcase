@@ -27,6 +27,18 @@ intervention at every step.
 | Tasks tracked | 3,383 |
 | Audit problems | 0 |
 
+## Screenshots
+
+### Dashboard — live graph visualization
+
+![Dashboard](screenshots/dashboard-graph.jpeg)
+
+The operator surface shows a live visualization of the system's internal graph:
+2,372 nodes and 2,371 edges representing goals, tasks, insights, and plan nodes
+across multiple layers. The left panel shows the task board workflow
+(overview → active → doing → review → completed). The system renders
+real-time projections of the canonical state.
+
 ## What it does
 
 - **Agent orchestration** — dispatches work to AI agents across cloud and local
