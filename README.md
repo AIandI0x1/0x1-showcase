@@ -56,7 +56,7 @@ intervention at every step.
 | Total audit events | ~299,000 |
 | Development goals managed | 201 |
 | Tasks tracked | 3,383 |
-| Audit problems | 0 |
+| Audit problems | ocassional |
 
 ## What it does
 
