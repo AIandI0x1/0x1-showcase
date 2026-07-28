@@ -95,8 +95,9 @@ Models run on AMD Strix Halo (128 GB unified memory) via `llama-gateway`:
 - qwen3:4b (secondary, 4 parallel slots, ~3 GB)
 - Vision model for screenshot/image analysis
 
-The system migrates work from cloud to local models wherever possible — the
-goal is 100% local responsibility.
+The system orchestrates work across cloud and local models — cloud for
+orchestration and dispatch, local for execution. The local execution layer is
+being bootstrapped now, with the goal of 100% local responsibility.
 
 ## Technologies
 
