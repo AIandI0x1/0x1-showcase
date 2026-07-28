@@ -39,6 +39,11 @@ across multiple layers. The left panel shows the task board workflow
 (overview → active → doing → review → completed). The system renders
 real-time projections of the canonical state.
 
+> **Note:** This snapshot is outdated. The system is scaling faster than the
+> frontend can keep up — the local AI execution layer is being bootstrapped
+> and the graph has grown significantly since this was taken. Current state
+> is larger and more complex than shown.
+
 ## What it does
 
 - **Agent orchestration** — dispatches work to AI agents across cloud and local
