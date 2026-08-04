@@ -9,7 +9,7 @@
 - **Agent harness** — hermes-agent (local and cloud agent execution)
 - **Communication platform** — buzz (hive-mind communication)
 
-## Screenshots (outdated)
+## Screenshots & Demo
 
 ### Dashboard — live graph visualization
 
@@ -21,17 +21,21 @@ across multiple layers. The left panel shows the task board workflow
 (overview → active → doing → review → completed). The system renders
 real-time projections of the canonical state.
 
-> **Note:** This snapshot is outdated. The system is scaling faster than the
-> frontend can keep up — the local AI execution layer is being bootstrapped
-> and the graph has grown significantly since this was taken. Current state
-> is larger and more complex than shown.
+### Canon Graph — interactive 3D demo (27 s)
 
-### Canon Graph — interactive demo
+[![Canon Graph — interactive 3D demo](screenshots/canon-graph-demo.gif)](https://github.com/AIandI0x1/0x1-showcase/raw/main/screenshots/canon-graph-demo.mp4)
 
-<video src="screenshots/canon-graph-demo.mp4" width="800" controls></video>
+Interactive walkthrough of the canon graph: rotation, zoom, and node
+inspection — clicking a node opens the underlying goal record
+(here: `G059`, type: goal, status: completed). The graph is a live
+projection of the canonical state, not a mockup.
 
-Interactive walkthrough of the canon graph visualization, showing how the
-system projects goals, tasks, and evidence into a navigable graph structure.
+> The animation above plays inline; click it for the full-quality
+> [MP4 (27 s, 1444×726)](https://github.com/AIandI0x1/0x1-showcase/raw/main/screenshots/canon-graph-demo.mp4).
+
+> **Living system:** the video (2026-07-28) shows 2,247 nodes; the dashboard
+> screenshot (2026-08) shows 2,372. The graph grows daily because it renders
+> the actual state of work.
 
 ## What it is
 
@@ -47,16 +51,19 @@ intervention at every step.
 
 ## By the numbers
 
-| Metric | Value |
+| Metric | Value (verified 2026-08-04) |
 |---|---|
-| Python modules | 6,400+ |
-| Git commits | 14,310 |
-| Test files | 1,359 |
-| Hash-chain blocks | 475 |
-| Total audit events | ~299,000 |
-| Development goals managed | 201 |
-| Tasks tracked | 3,383 |
-| Audit problems | ocassional |
+| Git commits | 24,758 |
+| Python files | 9,156 |
+| Functions (Python + Go) | 141,384 |
+| Test files | 3,653 |
+| CLI subcommands | 235 |
+| Hash-chain blocks | 713 |
+| Audit events (main chain) | ~300,000 (50,379 live + 249,351 sealed in checkpoints) |
+| Audit events (all streams) | ~892,000 |
+| Development goals managed | 205 |
+| Tasks tracked | 3,382 |
+| Audit problems | occasional |
 
 ## What it does
 
@@ -79,10 +86,10 @@ currently being bootstrapped, with the goal of 100% local responsibility.
 
 ## Technologies
 
-- **Language:** Python (6,400+ modules)
+- **Language:** Python (9,100+ files), Go
 - **Inference:** Local LLM inference via custom gateway
-- **Audit:** Custom hash-chain implementation (append-only, self-healing)
-- **Network:** Multi-node sync over private mesh
+- **Audit:** Custom SHA256 hash chain (append-only, compaction checkpoints)
+- **Network:** Multi-node sync over private mesh (Tailscale)
 - **Hardware:** AMD Strix Halo (128 GB unified memory)
 
 ## Repository access
