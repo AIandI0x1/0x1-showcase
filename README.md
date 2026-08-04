@@ -4,10 +4,23 @@
 
 ## Modules
 
-0x1 includes absorbed components from other projects:
+0x1 is the main project, with components absorbed from other repositories:
 
 - **Agent harness** — hermes-agent (local and cloud agent execution)
 - **Communication platform** — buzz (hive-mind communication)
+
+### Hardware ports (AMD Strix Halo, gfx1151)
+
+Inference optimization tools ported to AMD Strix Halo (RDNA 3.5), with
+documented evidence. Forks on this profile, branch `port/strix-halo-gfx1151`:
+
+| Project | What was done |
+|---|---|
+| **Hyperloom** | GPU type detection for gfx1151, llama.cpp framework adapter, 135 tests passing |
+| **Magpie** | Benchmark scripts for Strix Halo, TraceLens validation, hardware-agnostic trace analysis |
+| **GEAK** | RDNA 3.5 hardware knowledge, Triton and HIP kernel verification, wave32/wave64 guidance |
+
+All three hardware-verified on device: `_autodetect_gpu_type() = 'strix-halo'`
 
 ## Screenshots & Demo
 
