@@ -109,7 +109,7 @@ currently being bootstrapped, with the goal of 100% local responsibility.
 - **Inference:** Local LLM inference via custom gateway
 - **Audit:** Custom SHA256 hash chain (append-only, compaction checkpoints)
 - **Network:** Multi-node sync over private mesh (Tailscale)
-- **Hardware:** AMD Strix Halo (128 GB unified memory)
+- **Hardware:** AMD Strix Halo (128 GB unified memory), Mac Mini M4 24GB Unified Memory, NVDA 3060 12GB plugged                   into mac mini using tinygrad
 
 ## Repository access
 
