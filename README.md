@@ -22,6 +22,12 @@ documented evidence. Forks on this profile, branch `port/strix-halo-gfx1151`:
 
 All three hardware-verified on device: `_autodetect_gpu_type() = 'strix-halo'`
 
+### Upstream PR contributions
+
+- **[hermes-agent #6776](https://github.com/NousResearch/hermes-agent/pull/6776)** — fix for truncated streaming tool calls; cherry-picked into main with authorship preserved (225k★ project)
+- **[SwiftLM #58](https://github.com/SharpAI/SwiftLM/pull/58)** — build.sh mlx-swift source path detection; merged
+- **[buzz #2619](https://github.com/block/buzz/pull/2619)** — tenant-split bug in `normalize_host` across 3 components, incl. migration + tests; maintainer review: "P0 triage — merge candidate"
+
 ## Screenshots & Demo
 
 ### Dashboard — live graph visualization
